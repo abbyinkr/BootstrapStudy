@@ -1,0 +1,13 @@
+127.0.0.1 - - [03/Jul/2021:14:08:00 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:14:08:01 +0900] "GET /BootStrapWork/BootEx03.html HTTP/1.1" 200 5467
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:14:08:01 +0900] "GET /BootStrapWork/css/bootstrap.css HTTP/1.1" 200 141414
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:14:08:01 +0900] "GET /BootStrapWork/js/bootstrap.min.js HTTP/1.1" 200 35452
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:14:08:57 +0900] "GET /BootStrapWork/BootEx04.html HTTP/1.1" 200 1334
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:14:15:16 +0900] "GET /BootStrapWork/BootEx06.html HTTP/1.1" 200 1537
+127.0.0.1 - - [03/Jul/2021:14:23:10 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:14:23:48 +0900] "GET /BootStrapWork/BootEx02.html HTTP/1.1" 200 9469
+127.0.0.1 - - [03/Jul/2021:20:55:04 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:20:55:17 +0900] "GET /BootStrapWork/BootEx07.html HTTP/1.1" 200 1244
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:20:55:17 +0900] "GET /BootStrapWork/css/bootstrap.css HTTP/1.1" 200 141414
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:20:55:17 +0900] "GET /BootStrapWork/js/bootstrap.min.js HTTP/1.1" 200 35452
+0:0:0:0:0:0:0:1 - - [03/Jul/2021:20:55:18 +0900] "GET /favicon.ico HTTP/1.1" 404 761

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BootEx08.html</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- 추가~!!! -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+</head>
+<body>
+
+<div>
+	<h1>Glyphicons</h1>
+	<hr />
+</div>
+
+
+<div>
+	아이콘 : <span class="glyphicon glyphicon-align-justify"></span>
+</div>
+
+<br /><br />
+
+
+<div>
+	아이콘 : <span class="glyphicon glyphicon-align-justify" style="width: 200px;"></span>
+	아이콘 : <span class="glyphicon glyphicon-align-justify" style="height: 200px;"></span>
+</div>
+
+<br /><br />
+
+<!-- 크기조절 : 『font-size』 사용 -->
+<div>
+	아이콘 : <span class="glyphicon glyphicon-align-justify" style="font-size: 30px; color: blue; "></span>
+</div>
+
+<br /><br />
+
+<!-- Attribute Content Type → Simple Type → 적용 안됨 -->
+<!-- Simple Type : value 속성으로 값을 표현하는 엘리먼트 를 지칭함 -->
+<div>
+	<input type="button" class="glyphicon glyphicon-heart"/>
+</div>
+
+<br /><br />
+<!-- Attribute Content Type → Complex Type → 적용 됨 -->
+<div>
+	<button type="button" class="btn btn-default">
+		<span class="glyphicon glyphicon-heart" style="font-size: 30px; color: pink;">
+		</span>
+		좋아요
+	</button>
+</div>
+
+<br /><br />
+<div>
+	<button type="button" class="btn btn-default">Left</button>
+	<button type="button" class="btn btn-default">Middle</button>
+	<button type="button" class="btn btn-default">Right</button>
+</div>
+
+<br /><br />
+<div class="btn-group" role="group">
+	<button type="button" class="btn btn-default">Left</button>
+	<button type="button" class="btn btn-default">Middle</button>
+	<button type="button" class="btn btn-default">Right</button>
+</div>
+
+<br /><br />
+<div class="btn-group" role="group">
+	<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"></span></button>
+	<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-center"></span></button>
+	<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-right"></span></button>
+</div>
+<br /><br />
+
+
+
+
+</body>
+</html>
